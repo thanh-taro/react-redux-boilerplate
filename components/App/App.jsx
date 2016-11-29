@@ -6,7 +6,7 @@ class App extends React.Component {
 
   render() {
     return (
-    	<SimpleLayout>
+      <SimpleLayout>
         {this.props.children}
       </SimpleLayout>
     );
